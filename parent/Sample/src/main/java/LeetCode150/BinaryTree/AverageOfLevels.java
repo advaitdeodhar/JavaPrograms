@@ -3,7 +3,7 @@ package LeetCode150.BinaryTree;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class AverageOfLevels {
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> retVal = new ArrayList<>();
         List<TreeNode> currentList = new ArrayList<>();
